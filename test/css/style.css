@@ -1,0 +1,66 @@
+body{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.my-nav{
+    background: url(photos/apple-computer-wallpaper.jpg) no-repeat fixed ;
+    padding: 0% 0 8% 0;
+    color: #fff;
+    background-size: cover
+}
+.my-nav a{color: #fff;transition: all 0.8s linear;    margin-top: 15px;}
+.my-nav h1{margin-top: 60px}
+.my-nav a:hover{color: #10c9c3}
+.my-nav .btn{background-color:#10c9c3;color: #fff;padding: 8px 35px;margin-top: 30px;}
+.navbar-expand-lg .navbar-collapse {margin-right: 15%}
+/***********************/
+.about{padding: 7% 0}
+/***********************/
+.Skills {
+    padding: 6% 0;
+     background: url(photos/free-wallpaper-laptop-computer_5531530.jpg) no-repeat fixed 35% 46% ;}
+.Skills .progress{height: 5px;margin-bottom: 30px;}
+.Skills h1{margin-bottom: 23px;}
+.Skills p{color:#084d92;margin-bottom: 5px;}
+/***********************/
+.prev{padding: 5% 0;background-color:#10c9c3;color: #fff }
+.prev .col-sm i{    float: left;
+    margin-right: 16px; margin-bottom: 30px;}
+.std-foot1 ,.std-foot2 ,.std-foot3,.std-foot4{    padding: 20px 3px;background-color: #dcdcdc;color: #898888;margin: 0 -15px;cursor: pointer;transition: all .8s ease-in-out}
+/***********************/
+.our-work{padding: 6% 0 0 0}
+.our-work h1{margin-bottom: 35px}
+.our-work p{color:#898888 }
+.our-work .video{background-color: #ccc;width: 100%;height: 400px;margin-top: 47px;}
+.our-work .too{width: 100%;height: 100%;background: url(photos/free-wallpaper-laptop-computer_5531530.jpg) no-repeat fixed center center}
+.our-work .video i{margin-right: 7%;cursor: pointer}
+.our-work .video .fa-play-circle:before{color:#10c9c3;position: absolute;margin-top: 9%; }
+.our-work .video img{width: 100%;height: 100%;position: relative}
+
+/* .buttonn{position: fixed;right: 10px;bottom: 10px;background-color:#10c9c3;color: #fff;padding: 8px;display: none} */
+
+/***********************/
+.works {margin-top: 80px;padding: 5% 0;background-color: #f5f5f5}
+.works .media-body{margin-top: 15px}
+/***********************/
+.my-carousel{background-color:#10c9c3;color: #fff;padding: 10% 0; }
+.my-carousel ol{margin-bottom: -4%;}
+.my-carousel ol li{width: 9px; height: 9px;border-radius: 50%}
+.carousel-indicators .active{width: 11px;height: 11px}
+/***********************/
+
+.logo{padding: 4% 0;}
+.logo img{width: 178px;height: 117px}
+/***********************/
+.project{background-color: #f5f5f5;padding: 5% 0}
+.project h2{margin-bottom: 30px}
+.project p{color: #969696}
+.project form{width: 60%;margin-left: 20%;}
+.project form > div {margin-bottom: 15px}
+.project form input,.project form textarea{border: none}
+.project form textarea{resize: none}
+.project button {background-color: #10c9c3;color: #fff;margin-top: 20px;padding: 12px 35px;text-transform: uppercase}
+/***********************/
+footer{padding: 5% 0;background-color: #141414;color: #fff;}
+footer li{cursor: pointer;transition: all .3s ease-in-out}
+footer li:hover{color: #10c9c3}
